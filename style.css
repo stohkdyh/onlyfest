@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lalezar&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    background-color: #EDBE8F;
+}
+
+body {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFA952;
+}
+
+.nav-link {
+    color: black;
+    line-height: 0.5rem;
+}
+
+.nav-underline .nav-link.active {
+    color: #A7FF89;
+}
+
+.nav-underline > li > a:hover {
+    color: #A7FF89;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+
+.dropdown-menu > li {
+    background-color: none;
+    border-radius: 0;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #EDBE8F;
+    color: #A7FF89;
+}
+
+p {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.merch_ddown:hover {
+    color: #A7FF89;
+}
+
