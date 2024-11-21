@@ -5,6 +5,11 @@
     display: none;
 }
 
+html{
+    max-width: 105%;
+    overflow-x: hidden;
+}
+
 nav {
     background-color: #EDBE8F;
 }
