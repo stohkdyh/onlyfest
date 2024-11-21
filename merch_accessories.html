@@ -56,27 +56,38 @@
                 <h1 style="filter: drop-shadow(-0.3vw 0.3vw black); background: linear-gradient(to right, #B51E1E, #FF5252); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin: -3vh 0 0 0; font-size: 5rem;">WEAR THE MEMORY</h1>
             </div>
         </div>
-        <div class="row row-cols-3 my-4" style="margin-top: 20vh;">
+        <div class="row row-cols-3 my-4" style="margin-top : 20vh;">
             <div class="col"><img src="assets/merch.png" height="45vh"></div>
             <div class="col"></div>
             <div class="col align-content-center">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex" role="search" onsubmit="return searchItems(event)">
+                    <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit"><img src="assets/search.svg"></button>
-                  </form>
+                </form>
             </div>
         </div>
-        <div class="row row-cols-4 g-5" style="padding-bottom: 15vh;">
-            <div class="col"><img id="onlyacc0" src="assets/Group 260.png"></div>
-            <div class="col"><img id="onlyacc1" src="assets/Group 261.png"></div>
-            <div class="col"><img id="onlyacc2" src="assets/Group 262.png"></div>
-            <div class="col"><img id="onlyacc3" src="assets/Group 263.png"></div>
-            <div class="col"><img id="onlyacc4" src="assets/Group 264.png"></div>
-            <div class="col"><img id="onlyacc5" src="assets/Group 265.png"></div>
-            <div class="col"><img id="onlyacc6" src="assets/Group 266.png"></div>
-            <div class="col"><img id="onlyacc7" src="assets/Group 267.png"></div>
-            <div class="col"><img id="onlyacc8" src="assets/Group 268.png"></div>
-            <div class="col"><img id="onlyacc9" src="assets/Group 269.png"></div>
+        <div id="searchResults" class="row row-cols-4 g-5" style="padding-bottom: 15vh;"></div>
+        <div id="allItems" class="row row-cols-4 g-5" style="padding-bottom: 15vh;">
+            <div class="col"><img id="onlywear#1" src="assets/onlywear1.png"></div>
+            <div class="col"><img id="onlywear#2" src="assets/onlywear2.png"></div>
+            <div class="col"><img id="onlywear#3" src="assets/onlywear3.png"></div>
+            <div class="col"><img id="onlywear#4" src="assets/onlywear4.png"></div>
+            <div class="col"><img id="onlywear#5" src="assets/onlywear5.png"></div>
+            <div class="col"><img id="onlywear#6" src="assets/onlywear6.png"></div>
+            <div class="col"><img id="onlywear#7" src="assets/onlywear7.png"></div>
+            <div class="col"><img id="onlywear#8" src="assets/onlywear8.png"></div>
+            <div class="col"><img id="onlywear#9" src="assets/onlywear9.png"></div>
+            <div class="col"><img id="onlywear#10" src="assets/onlywear10.png"></div>
+            <div class="col"><img id="onlyacc#1" src="assets/onlyacc1.png"></div>
+            <div class="col"><img id="onlyacc#2" src="assets/onlyacc2.png"></div>
+            <div class="col"><img id="onlyacc#3" src="assets/onlyacc3.png"></div>
+            <div class="col"><img id="onlyacc#4" src="assets/onlyacc4.png"></div>
+            <div class="col"><img id="onlyacc#5" src="assets/onlyacc5.png"></div>
+            <div class="col"><img id="onlyacc#6" src="assets/onlyacc6.png"></div>
+            <div class="col"><img id="onlyacc#7" src="assets/onlyacc7.png"></div>
+            <div class="col"><img id="onlyacc#8" src="assets/onlyacc8.png"></div>
+            <div class="col"><img id="onlyacc#9" src="assets/onlyacc9.png"></div>
+            <div class="col"><img id="onlyacc#10" src="assets/onlyacc10.png"></div>
         </div>
     </header>
     <footer class="footer" style="background-color: #4EA232; height: 18vh;">
